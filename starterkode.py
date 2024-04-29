@@ -25,7 +25,6 @@ for row in lines[2:]:
 #plotte titlene
 lables = lines[0].strip().split(",")
 lables = list(dict.fromkeys(lables))
-print(lables)
 
 #plotte dataene
 plt.plot(tid, ems1, "r", label = str(lables[0]))
